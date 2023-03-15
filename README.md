@@ -5,14 +5,8 @@
 Installer dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
-
-# pnpm
-pnpm install
 ```
 
 ## Start JSON server 
@@ -22,6 +16,7 @@ Kør dette script inden npm run dev
 ```
 json-server --watch data/db.json
 ```
+Det laver dette endpoint: http://localhost:3000/posts 
 
 ## Development Server
 
