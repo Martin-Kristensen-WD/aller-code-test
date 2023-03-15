@@ -1,0 +1,26 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;800&family=Pathway+Gothic+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-primaryBeige;
+}
+
+h1 {
+  @apply font-pathway font-bold text-white text-4xl md:text-5xl;
+}
+
+h2 {
+  @apply font-gothic font-extrabold lg:text-xl;
+}
+
+h3 {
+  @apply font-pathway font-bold uppercase text-primaryRed text-lg;
+}
+
+.bg-image {
+  @apply bg-no-repeat bg-cover bg-center;
+}
