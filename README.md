@@ -5,7 +5,6 @@
 Installer dependencies:
 
 ```bash
-# npm
 npm install
 ```
 
