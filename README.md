@@ -1,10 +1,8 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Code test - Aller Media 
 
 ## Setup
 
-Make sure to install the dependencies:
+Installer dependencies:
 
 ```bash
 # yarn
@@ -17,27 +15,19 @@ npm install
 pnpm install
 ```
 
+## Start JSON server 
+Jeg har simuleret at artiklerne kommer fra et endpoint, som det ville gøre i virkeligheden. Dertil bruger jeg JSON server til at lave et localhost endpoint. 
+
+Kør dette script inden npm run dev 
+```
+json-server --watch data/db.json
+```
+
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start dev server på http://localhost:5678/
 
 ```bash
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# aller-code-test
