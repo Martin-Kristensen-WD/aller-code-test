@@ -11,11 +11,18 @@ npm install
 ## Start JSON server 
 Jeg har simuleret at artiklerne kommer fra et endpoint, som det ville gøre i virkeligheden. Dertil bruger jeg JSON server til at lave et localhost endpoint. 
 
+Installer json-server globalt
+```
+npm install -g json-server
+```
+
 Kør dette script inden npm run dev 
 ```
 json-server --watch data/db.json
 ```
+
 Det laver dette endpoint: http://localhost:3000/posts 
+
 
 ## Development Server
 
